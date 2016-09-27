@@ -3,8 +3,8 @@ MAINTAINER Ramazan AYYILDIZ <rayyildiz@gmail.com>
 
 # Java Version
 ENV  JAVA_VERSION=8 \
-     JAVA_UPDATE=101 \
-     JAVA_BUILD=13  \
+     JAVA_UPDATE=102 \
+     JAVA_BUILD=14  \
      JAVA_HOME=/usr/lib/jvm/current-java
 
 # JDK: http://download.oracle.com/otn-pub/java/jdk/8u60-b27/jdk-8u60-linux-x64.tar.gz

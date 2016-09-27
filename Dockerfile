@@ -13,25 +13,25 @@ ENV  JAVA_VERSION=8 \
 
 
 # JRE
-RUN cd /tmp && wget --header "Cookie: oraclelicense=accept-securebackup-cookie;" \
-        "http://download.oracle.com/otn-pub/java/jdk/${JAVA_VERSION}u${JAVA_UPDATE}-b${JAVA_BUILD}/jre-${JAVA_VERSION}u${JAVA_UPDATE}-linux-x64.tar.gz" && \
-     tar xzf "jre-${JAVA_VERSION}u${JAVA_UPDATE}-linux-x64.tar.gz" && \
-     mkdir -p /usr/lib/jvm && mv "/tmp/jre1.${JAVA_VERSION}.0_${JAVA_UPDATE}" "/usr/lib/jvm/java-${JAVA_VERSION}-oracle"  && \
-     ln -s "java-${JAVA_VERSION}-oracle" $JAVA_HOME && \
-     ln -s $JAVA_HOME/bin/java /usr/bin/java && \
-     rm -rf $JAVA_HOME/*.txt && \
-     rm -rf $JAVA_HOME/*.html && \
-     apk del wget ca-certificates curl && \
-     rm /tmp/* /var/cache/apk/*
+#RUN cd /tmp && wget --header "Cookie: oraclelicense=accept-securebackup-cookie;" \
+#        "http://download.oracle.com/otn-pub/java/jdk/${JAVA_VERSION}u${JAVA_UPDATE}-b${JAVA_BUILD}/jre-${JAVA_VERSION}u${JAVA_UPDATE}-linux-x64.tar.gz" && \
+#     tar xzf "jre-${JAVA_VERSION}u${JAVA_UPDATE}-linux-x64.tar.gz" && \
+#     mkdir -p /usr/lib/jvm && mv "/tmp/jre1.${JAVA_VERSION}.0_${JAVA_UPDATE}" "/usr/lib/jvm/java-${JAVA_VERSION}-oracle"  && \
+#     ln -s "java-${JAVA_VERSION}-oracle" $JAVA_HOME && \
+#     ln -s $JAVA_HOME/bin/java /usr/bin/java && \
+#     rm -rf $JAVA_HOME/*.txt && \
+#     rm -rf $JAVA_HOME/*.html && \
+#     apk del wget ca-certificates curl && \
+#     rm /tmp/* /var/cache/apk/*
 
 # JDK
-# RUN cd /tmp && wget --header "Cookie: oraclelicense=accept-securebackup-cookie;" \
-#       "http://download.oracle.com/otn-pub/java/jdk/${JAVA_VERSION}u${JAVA_UPDATE}-b${JAVA_BUILD}/jdk-${JAVA_VERSION}u${JAVA_UPDATE}-linux-x64.tar.gz" && \
-#    tar xzf "jdk-${JAVA_VERSION}u${JAVA_UPDATE}-linux-x64.tar.gz" && \
-#    mkdir -p /usr/lib/jvm && mv "/tmp/jdk1.${JAVA_VERSION}.0_${JAVA_UPDATE}" "/usr/lib/jvm/java-${JAVA_VERSION}-oracle"  && \
-#    ln -s "java-${JAVA_VERSION}-oracle" $JAVA_HOME && \
-#    ln -s $JAVA_HOME/bin/java /usr/bin/java && \
-#    rm -rf $JAVA_HOME/*.txt && \
-#    rm -rf $JAVA_HOME/*.html && \
-#    apk del wget ca-certificates curl && \
-#    rm /tmp/* /var/cache/apk/*
+RUN cd /tmp && wget --header "Cookie: oraclelicense=accept-securebackup-cookie;" \
+       "http://download.oracle.com/otn-pub/java/jdk/${JAVA_VERSION}u${JAVA_UPDATE}-b${JAVA_BUILD}/jdk-${JAVA_VERSION}u${JAVA_UPDATE}-linux-x64.tar.gz" && \
+    tar xzf "jdk-${JAVA_VERSION}u${JAVA_UPDATE}-linux-x64.tar.gz" && \
+    mkdir -p /usr/lib/jvm && mv "/tmp/jdk1.${JAVA_VERSION}.0_${JAVA_UPDATE}" "/usr/lib/jvm/java-${JAVA_VERSION}-oracle"  && \
+    ln -s "java-${JAVA_VERSION}-oracle" $JAVA_HOME && \
+    ln -s $JAVA_HOME/bin/java /usr/bin/java && \
+    rm -rf $JAVA_HOME/*.txt && \
+    rm -rf $JAVA_HOME/*.html && \
+    apk del wget ca-certificates curl && \
+    rm /tmp/* /var/cache/apk/*

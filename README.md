@@ -12,10 +12,10 @@ Tags:
 * jre8 (8u111)
 * jre8u101
 * jre8u111
+* jre8u112
 * latest (jre8u111)
 
 [![](https://images.microbadger.com/badges/image/rayyildiz/java8.svg)](https://microbadger.com/images/rayyildiz/java8 "Get your own image badge on microbadger.com")
-
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/rayyildiz/java8.svg)](https://hub.docker.com/r/rayyildiz/java8/)
 

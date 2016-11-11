@@ -15,5 +15,7 @@ Tags:
 * latest (jre8u111)
 
 [![](https://images.microbadger.com/badges/image/rayyildiz/java8.svg)](https://microbadger.com/images/rayyildiz/java8 "Get your own image badge on microbadger.com")
+
+
 [![Docker Pulls](https://img.shields.io/docker/pulls/rayyildiz/java8.svg?style=flat-square)](https://hub.docker.com/r/rayyildiz/java8/)
 

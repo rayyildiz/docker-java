@@ -3,8 +3,8 @@ MAINTAINER Ramazan AYYILDIZ <rayyildiz@gmail.com>
 
 # Java Version
 ENV  JAVA_VERSION=8 \
-     JAVA_UPDATE=111 \
-     JAVA_BUILD=14  \
+     JAVA_UPDATE=121 \
+     JAVA_BUILD=13  \
      JAVA_TOKEN=e9e7ea248e2c4826b92b3f075a80e441 \
      JAVA_HOME=/usr/lib/jvm/current-java
 

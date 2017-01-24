@@ -3,8 +3,8 @@ MAINTAINER Ramazan AYYILDIZ <rayyildiz@gmail.com>
 
 # Java Version
 ENV  JAVA_VERSION=8 \
-     JAVA_UPDATE=111 \
-     JAVA_BUILD=14  \
+     JAVA_UPDATE=121 \
+     JAVA_BUILD=13  \
      JAVA_TOKEN=e9e7ea248e2c4826b92b3f075a80e441 \
      JAVA_HOME=/usr/lib/jvm/current-java
 
@@ -13,6 +13,7 @@ ENV  JAVA_VERSION=8 \
 # http://download.oracle.com/otn-pub/java/jdk/8u101-b13/jdk-8u101-linux-x64.tar.gz
 # http://download.oracle.com/otn-pub/java/jdk/8u111-b14/jdk-8u111-linux-x64.tar.gz
 # http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jdk-8u121-linux-x64.tar.gz
+# http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jre-8u121-linux-x64.tar.gz
 
 # JRE
 RUN cd /tmp && wget --header "Cookie: oraclelicense=accept-securebackup-cookie;" \

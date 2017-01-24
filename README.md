@@ -6,11 +6,13 @@ Link: https://hub.docker.com/r/rayyildiz/java8/
 Current java : Latest version : *1.8.0_121*
 
 Tags:
+* jdk (8u121)
 * jdk8 (8u111)
 * jdk8u101
 * jdk8u111
 * jdk8u112
 * jdk8u121
+* jre (8u121)
 * jre8 (8u111)
 * jre8u101
 * jre8u111

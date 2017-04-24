@@ -3,7 +3,7 @@ Java Image for Docker
 
 Link: https://hub.docker.com/r/rayyildiz/java8/
 
-Current java : Latest version : *1.8.0_121*
+Current java : Latest version : *1.8.0_131*
 
 Tags:
 * jdk (8u121)
@@ -12,13 +12,15 @@ Tags:
 * jdk8u111
 * jdk8u112
 * jdk8u121
-* jre (8u121)
-* jre8 (8u111)
+* jdk8u131
+* jre (8u1131)
+* jre8 (8u131)
 * jre8u101
 * jre8u111
 * jre8u112
 * jre8u121
-* latest (jre8u121)
+* jre8u131
+* latest (jre8u131)
 
 [![](https://images.microbadger.com/badges/image/rayyildiz/java8.svg)](https://microbadger.com/images/rayyildiz/java8 "Get your own image badge on microbadger.com")
 

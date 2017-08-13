@@ -3,9 +3,9 @@ MAINTAINER Ramazan AYYILDIZ <rayyildiz@gmail.com>
 
 # Java Version
 ENV  JAVA_VERSION=8 \
-     JAVA_UPDATE=141 \
-     JAVA_BUILD=15  \
-     JAVA_TOKEN=336fa29ff2bb4ef291e347e091f7f4a7 \
+     JAVA_UPDATE=144 \
+     JAVA_BUILD=01  \
+     JAVA_TOKEN=090f390dda5b47b9b721c7dfaa008135 \
      JAVA_HOME=/usr/lib/jvm/current-java
 
 # JDK: http://download.oracle.com/otn-pub/java/jdk/8u60-b27/jdk-8u60-linux-x64.tar.gz
